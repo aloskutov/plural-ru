@@ -2,15 +2,23 @@
   "name": "plural",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "plural.js",
   "scripts": {
     "test": "npx jest",
     "coverage": "npx jest --coverage",
-    "lint": "npx eslint ./src",
-    "hint": "npx jshint ./src"
+    "lint": "npx eslint",
+    "hint": "npx jshint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aloskutov/plural.git"
   },
   "author": "Alex Loskutov",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aloskutov/plural/issues"
+  },
+  "homepage": "https://github.com/aloskutov/plural#readme",
   "dependencies": {
     "eslint": "^8.10.0",
     "eslint-plugin-jsdoc": "^37.9.4",
