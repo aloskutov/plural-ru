@@ -1,0 +1,20 @@
+{
+  "name": "plural",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest",
+    "coverage": "npx jest --coverage",
+    "lint": "npx eslint ./src",
+    "hint": "npx jshint ./src"
+  },
+  "author": "Alex Loskutov",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^8.10.0",
+    "eslint-plugin-jsdoc": "^37.9.4",
+    "jest": "^27.5.1",
+    "jshint": "^2.13.4"
+  }
+}
