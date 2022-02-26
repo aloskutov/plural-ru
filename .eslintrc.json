@@ -15,6 +15,7 @@
   ],
   "ignorePatterns": ["*.config.js"],
   "rules": {
+    "prefer-const": ["error"],
     "camelcase": ["error"],
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
