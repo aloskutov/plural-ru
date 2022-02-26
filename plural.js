@@ -26,11 +26,9 @@ const plural = (number, plurals) => {
   let result = '';
   const tmpNumber = number % 100;
 
-  if (tmpNumber >= 11 && tmpNumber <= 19) {
-    result = plurals[2];
-  } else {
-    result = plurals[index(tmpNumber)];
-  }
+  result = (tmpNumber >= 11 && tmpNumber <= 19) ?
+    plurals[2] :
+    plurals[index(tmpNumber)];
   return result;
 };
 
