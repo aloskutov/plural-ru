@@ -1,5 +1,17 @@
 'use strict';
 
+const index = (number) => {
+  let result = 2;
+  const i = number % 10;
+  if (i == 1) {
+    result = 0;
+  }
+  if ((i >= 2) && (i <=4)) {
+    result = 1;
+  }
+  return result;
+};
+
 /**
  * Plural
  * Функция возвращает окончание для множественного числа слова на основании
@@ -12,24 +24,12 @@
  */
 const plural = (number, plurals) => {
   let result = '';
-  let tmpNumber = number % 100;
+  const tmpNumber = number % 100;
 
   if (tmpNumber >= 11 && tmpNumber <= 19) {
     result = plurals[2];
   } else {
-    let i = tmpNumber % 10;
-    switch (i) {
-    case 1:
-      result = plurals[0];
-      break;
-    case 2:
-    case 3:
-    case 4:
-      result = plurals[1];
-      break;
-    default:
-      result = plurals[2];
-    }
+    result = plurals[index(tmpNumber)];
   }
   return result;
 };
