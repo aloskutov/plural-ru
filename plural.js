@@ -3,7 +3,7 @@
 /**
  * Get plural array index
  *
- * @param {number} number
+ * @param {number} number Число для которого нужно получить индекс
  * @returns {number} index
  */
 const index = (number) => {
