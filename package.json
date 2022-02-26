@@ -6,8 +6,8 @@
   "scripts": {
     "test": "npx jest",
     "coverage": "npx jest --coverage",
-    "lint": "npx eslint",
-    "hint": "npx jshint"
+    "lint": "npx eslint ./plural.js",
+    "hint": "npx jshint ./plural.js"
   },
   "repository": {
     "type": "git",
