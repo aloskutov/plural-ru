@@ -1,9 +1,15 @@
 'use strict';
 
+/**
+ * Get plural array index
+ *
+ * @param {number} number
+ * @returns {number} index
+ */
 const index = (number) => {
   let result = 2;
   const i = number % 10;
-  if (i == 1) {
+  if (i === 1) {
     result = 0;
   }
   if ((i >= 2) && (i <=4)) {
