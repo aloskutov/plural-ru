@@ -21,7 +21,7 @@
   "homepage": "https://github.com/aloskutov/plural#readme",
   "dependencies": {
     "eslint": "^8.10.0",
-    "eslint-plugin-jsdoc": "^37.9.4",
+    "eslint-plugin-jsdoc": "^37.9.5",
     "jest": "^27.5.1",
     "jshint": "^2.13.4"
   }
