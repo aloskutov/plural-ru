@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/aloskutov/plural#readme",
   "dependencies": {
-    "eslint": "^8.27.0",
-    "eslint-plugin-jsdoc": "^39.6.2",
+    "eslint": "^8.29.0",
+    "eslint-plugin-jsdoc": "^39.6.4",
     "jest": "^29.3.1",
     "jshint": "^2.13.6"
   }
