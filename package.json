@@ -7,6 +7,11 @@
     "registry": "https://npm.pkg.github.com",
     "access": "public"
   },
+  "keywords": [
+    "plural",
+    "russian",
+    "pluralization"
+  ],
   "scripts": {
     "test": "npx jest",
     "coverage": "npx jest --coverage",
@@ -23,7 +28,7 @@
     "url": "https://github.com/aloskutov/plural-ru/issues"
   },
   "homepage": "https://github.com/aloskutov/plural-ru#readme",
-  "dependencies": {
+  "devDependencies": {
     "eslint": "^8.29.0",
     "eslint-plugin-jsdoc": "^39.6.4",
     "jest": "^29.3.1",
