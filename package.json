@@ -1,5 +1,5 @@
 {
-  "name": "plural",
+  "name": "plural-ru",
   "version": "1.0.0",
   "description": "",
   "main": "plural.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aloskutov/plural.git"
+    "url": "git+https://github.com/aloskutov/plural-ru.git"
   },
   "author": "Alex Loskutov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aloskutov/plural/issues"
+    "url": "https://github.com/aloskutov/plural-ru/issues"
   },
-  "homepage": "https://github.com/aloskutov/plural#readme",
+  "homepage": "https://github.com/aloskutov/plural-ru#readme",
   "dependencies": {
     "eslint": "^8.29.0",
     "eslint-plugin-jsdoc": "^39.6.4",
