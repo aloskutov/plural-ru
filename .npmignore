@@ -5,8 +5,6 @@ coverage
 .eslintrc.json
 .gitignore
 .jshintrc
+CODE_OF_CONDUCT.md
 jest.config.js
 package-lock.json
-.eleventyignore
-CODE_OF_CONDUCT.md
-readme.md
