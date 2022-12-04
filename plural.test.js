@@ -4,6 +4,7 @@ const plural = require('./plural');
 
 describe('Tests', () => {
   test.each([
+    {number: 0, plurals: ['груша', 'груши', 'груш'], result: 'груш'},
     {number: 1, plurals: ['груша', 'груши', 'груш'], result: 'груша'},
     {number: 2, plurals: ['арбуз', 'арбуза', 'арбузов'], result: 'арбуза'},
     {number: 4, plurals: ['банан', 'банана', 'бананов'], result: 'банана'},
