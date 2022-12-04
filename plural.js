@@ -14,6 +14,21 @@ const index = (number) => {
 };
 
 /**
+ * Clean number
+ *
+ * @private
+ * @param {number} number - число
+ * @returns {number} абсолютное значение числа (беззнаковое)
+ */
+const cleanNumber = (number) => {
+  const cleaned = Math.abs(number);
+  if (isNaN(cleaned)) {
+    throw new Error('Not a Number!');
+  }
+  return cleaned;
+};
+
+/**
  * Plural
  * Функция возвращает существительное или окончание для множественного числа
  * слова на основании числа и массива окончаний
@@ -26,7 +41,7 @@ const index = (number) => {
  * returns 'яблок'
  */
 const plural = (number, plurals) => {
-  const tmpNumber = number % 100;
+  const tmpNumber = cleanNumber(number) % 100;
   const result = (tmpNumber >= 11 && tmpNumber <= 19) ?
     plurals[2] :
     plurals[index(tmpNumber)];
