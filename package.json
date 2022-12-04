@@ -1,8 +1,12 @@
 {
-  "name": "plural-ru",
+  "name": "@aloskutov/plural-ru",
   "version": "1.0.0",
   "description": "",
   "main": "plural.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
   "scripts": {
     "test": "npx jest",
     "coverage": "npx jest --coverage",
