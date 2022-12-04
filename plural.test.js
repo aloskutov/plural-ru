@@ -20,4 +20,7 @@ describe('Tests', () => {
   ])(`$number $result`, ({number, plurals, result}) => {
     expect(plural(number, plurals)).toStrictEqual(result);
   });
+  test('Throw exception', () => {
+    expect(() => {plural('восемь', ['роза', 'розы', 'роз']);}).toThrow('Not a Number!');
+  });
 });
