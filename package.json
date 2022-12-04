@@ -1,7 +1,7 @@
 {
   "name": "@aloskutov/plural-ru",
   "version": "1.0.0",
-  "description": "",
+  "description": "Russian plural",
   "main": "plural.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
