@@ -4,7 +4,7 @@
  * Get plural array index
  *
  * @param {number} number Число для которого нужно получить индекс
- * @returns {number} index
+ * @returns {number} Индекс элемента массива
  */
 const index = (number) => {
   let result = 2;
@@ -20,13 +20,13 @@ const index = (number) => {
 
 /**
  * Plural
- * Функция возвращает окончание для множественного числа слова на основании
- * числа и массива окончаний
+ * Функция возвращает существительное или окончание для множественного числа
+ * слова на основании числа и массива окончаний
  *
  * @param {number} number Число на основе которого нужно сформировать окончание
  * @param {Array} plurals Массив слов или окончаний для чисел (1, 4, 5),
  *                        например array('яблоко', 'яблока', 'яблок')
- * @returns {string} result
+ * @returns {string} слово или окончание
  */
 const plural = (number, plurals) => {
   let result = '';
