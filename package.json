@@ -1,6 +1,6 @@
 {
   "name": "@aloskutov/plural-ru",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Russian plural",
   "main": "plural.js",
   "publishConfig": {
