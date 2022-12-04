@@ -9,5 +9,4 @@ jest.config.js
 package-lock.json
 .eleventyignore
 CODE_OF_CONDUCT.md
-package-lock.json
 readme.md
