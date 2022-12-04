@@ -8,7 +8,7 @@
 
 ### Установка
 
-**Через npm**
+#### 1. Через npm
 
 ```shell
 npm install @aloskutov/plural-ru
@@ -20,7 +20,7 @@ npm install @aloskutov/plural-ru
 const plural = require('@aloskutov/plural-ru');
 ```
 
-**Скачать из [репозитория](https://github.com/aloskutov/plural-ru) `plural.js`**
+#### 2. Скачать из [репозитория](https://github.com/aloskutov/plural-ru) `plural.js`
 
 Подключение:
 
@@ -43,6 +43,7 @@ let result = plural(number, array)
 3. Существительное во множественном числе, для 5-ти
 
 Результат &mdash; строка, элемент переданного массива.
+
 ## Пример
 
 Например, возьмём слова _машина_, три формы будут соответственно: одна _машина_, четыре _машины_ и пять _машин_.
