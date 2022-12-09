@@ -1,5 +1,6 @@
 .github
 coverage
+.codecov.yml
 .deepsource.toml
 .editorconfig
 .eslintrc.json
