@@ -17,7 +17,7 @@ describe('Tests', () => {
     {number: 101, plurals: ['долматинец', 'долматинца', 'долматинцев'], result: 'долматинец'},
     {number: 300, plurals: ['спартанец', 'спартанца', 'спартанцев'], result: 'спартанцев'},
     {number: 1000, plurals: ['чёрта', 'чёрта', 'чертей'], result: 'чертей'},
-  ])(`$number $result`, ({number, plurals, result}) => {
+  ])('$number $result', ({number, plurals, result}) => {
     expect(plural(number, plurals)).toStrictEqual(result);
   });
   test('Throw exception', () => {
