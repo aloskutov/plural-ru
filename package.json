@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/aloskutov/plural-ru#readme",
   "devDependencies": {
-    "eslint": "^9.0.0",
+    "eslint": "^10.0.0",
     "eslint-plugin-jsdoc": "^62.0.0",
     "jest": "^30.0.2",
     "jshint": "^2.13.6"
