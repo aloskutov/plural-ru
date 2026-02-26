@@ -18,7 +18,7 @@ npm install @aloskutov/plural-ru
 Подключение:
 
 ```js
-const plural = require('@aloskutov/plural-ru');
+import plural from '@aloskutov/plural-ru';
 ```
 
 #### 2. Скачать из [репозитория](https://github.com/aloskutov/plural-ru) `plural.js`
@@ -26,7 +26,7 @@ const plural = require('@aloskutov/plural-ru');
 Подключение:
 
 ```js
-const plural = require('./plural');
+import plural from './plural.js';
 ```
 
 ### Параметры
@@ -50,9 +50,8 @@ let result = plural(number, array)
 Например, возьмём слово _машина_, три формы будут соответственно: одна _машина_, четыре _машины_ и пять _машин_.
 
 ```js
-'use strict';
+import plural from './plural.js';
 
-const plural = require('./plural');
 const cars = ['машина', 'машины', 'машин'];
 
 console.log(0, plural(0, cars));
