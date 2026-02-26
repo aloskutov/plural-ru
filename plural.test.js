@@ -1,5 +1,3 @@
-'use strict';
-
 const plural = require('./plural');
 
 describe('Tests', () => {

@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Get plural array index
  *
