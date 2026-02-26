@@ -5,7 +5,8 @@
   "main": "plural.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "keywords": [
     "plural",
