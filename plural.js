@@ -1,6 +1,5 @@
 /**
  * Get plural array index
- *
  * @private
  * @param {number} number Число для которого нужно получить индекс
  * @returns {number} Индекс элемента массива
@@ -13,7 +12,6 @@ const index = (number) => {
 
 /**
  * Clean number
- *
  * @private
  * @param {number} number - число
  * @returns {number} абсолютное значение числа (беззнаковое)
@@ -30,7 +28,6 @@ const cleanNumber = (number) => {
  * Plural
  * Функция возвращает существительное или окончание для множественного числа
  * слова на основании числа и массива окончаний
- *
  * @param {number} number - Натуральное число
  * @param {Array} plurals - Массив слов/окончаний для чисел (1, 4, 5)
  * @returns {string} слово/окончание
