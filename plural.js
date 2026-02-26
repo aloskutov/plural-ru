@@ -4,7 +4,7 @@
  * @param {number} number Число для которого нужно получить индекс
  * @returns {number} Индекс элемента массива
  */
-const index = (number) => {
+export const index = (number) => {
   const i = number % 10;
 
   return (i === 1 ) ? 0 : ((i >= 2) && (i <=4)) ? 1 : 2;
@@ -16,7 +16,7 @@ const index = (number) => {
  * @param {number} number - число
  * @returns {number} абсолютное значение числа (беззнаковое)
  */
-const cleanNumber = (number) => {
+export const cleanNumber = (number) => {
   const cleaned = Math.abs(number);
   if (isNaN(cleaned)) {
     throw new Error('Not a Number!');
@@ -35,7 +35,7 @@ const cleanNumber = (number) => {
  * plural(7, ['яблоко', 'яблока', 'яблок'])
  * returns 'яблок'
  */
-const plural = (number, plurals) => {
+export const plural = (number, plurals) => {
   const tmpNumber = cleanNumber(number) % 100;
   const result = (tmpNumber >= 11 && tmpNumber <= 19) ?
     plurals[2] :
@@ -44,4 +44,4 @@ const plural = (number, plurals) => {
   return result;
 };
 
-module.exports = plural;
+export default plural;
