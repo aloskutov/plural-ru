@@ -1,11 +1,13 @@
 {
   "name": "@aloskutov/plural-ru",
-  "version": "1.1.7",
+  "version": "2.0.0",
   "description": "Russian plural",
   "main": "plural.js",
+  "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "keywords": [
     "plural",
@@ -13,8 +15,8 @@
     "pluralization"
   ],
   "scripts": {
-    "test": "npx jest",
-    "coverage": "npx jest --coverage",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
     "lint": "npx eslint ./plural.js",
     "hint": "npx jshint ./plural.js"
   },
@@ -29,9 +31,11 @@
   },
   "homepage": "https://github.com/aloskutov/plural-ru#readme",
   "devDependencies": {
-    "eslint": "^10.0.0",
-    "eslint-plugin-jsdoc": "^62.0.0",
-    "jest": "^30.0.2",
+    "@eslint/eslintrc": "^3.3.4",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.2",
+    "globals": "^17.3.0",
+    "jest": "^30.2.0",
     "jshint": "^2.13.6"
   }
 }

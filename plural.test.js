@@ -1,6 +1,4 @@
-'use strict';
-
-const plural = require('./plural');
+import plural from './plural.js';
 
 describe('Tests', () => {
   test.each([

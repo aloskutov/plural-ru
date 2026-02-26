@@ -1,6 +1,5 @@
-'use strict';
+import plural from './plural.js';
 
-const plural = require('./plural');
 const cars = ['машина', 'машины', 'машин'];
 
 console.log(0, plural(0, cars));
