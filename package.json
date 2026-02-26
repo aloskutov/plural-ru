@@ -15,8 +15,8 @@
     "pluralization"
   ],
   "scripts": {
-    "test": "npx jest",
-    "coverage": "npx jest --coverage",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
     "lint": "npx eslint ./plural.js",
     "hint": "npx jshint ./plural.js"
   },
