@@ -3,10 +3,10 @@ coverage
 .codecov.yml
 .deepsource.toml
 .editorconfig
-.eslintrc.json
 .gitignore
 .jshintrc
 CODE_OF_CONDUCT.md
+eslint.config.js
 jest.config.js
 package-lock.json
 yarn.lock
