@@ -1,5 +1,4 @@
 import { defineConfig, globalIgnores } from "eslint/config";
-import jsdoc from "eslint-plugin-jsdoc";
 import globals from "globals";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -15,11 +14,7 @@ const compat = new FlatCompat({
 });
 
 export default defineConfig([globalIgnores(["**/*.config.js"]), {
-    extends: compat.extends("eslint:recommended", "plugin:jsdoc/recommended"),
-
-    // plugins: {
-        // jsdoc,
-    // },
+    extends: compat.extends("eslint:recommended"),
 
     languageOptions: {
         globals: {
